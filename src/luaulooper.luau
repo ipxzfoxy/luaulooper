@@ -17,7 +17,6 @@ type EventLoop = {
     listeners: {listener};
 }
 
-
 function LuauLooper:create(): EventLoop
     return table.clone(EventLoop);
 end

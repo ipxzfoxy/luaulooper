@@ -1,6 +1,6 @@
-const LuaLooper = require("../src/luaulooper")
+const LuauLooper = require("../src/luaulooper")
 
-const loop = LuaLooper:create()
+const loop = LuauLooper:create()
 
 loop:on("ready", function (message)
     print("I'm ready! message: ", message)
