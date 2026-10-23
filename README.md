@@ -5,9 +5,9 @@ A functional event loop built with **[Luau](https://github.com/luau-lang/luau) 0
 ## Usage
 
 ```luau
-local LuauLooper = require("lualooper")
+const LuauLooper = require("lualooper")
 
-local loop = LuauLooper:create()
+const loop = LuauLooper:create()
 
 -- Register a listener
 loop:on("ready", function(message)
